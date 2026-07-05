@@ -10,7 +10,7 @@ st.divider()
 
 @st.cache_resource
 def load_model():
-    return joblib.load('rain_model.pkl')
+    return joblib.load('rain_model_light.pkl')
 
 model = load_model()
 
